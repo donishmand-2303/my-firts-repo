@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #4D515D;
+	font-family: "Roboto", "Arial", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.link-text {
+	color: rgba(0,0,0, 0.4);
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.signin-section {
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.sign-in-top {
+	padding: 60px;
+	border-bottom: 2px solid lightgrey;
+	width: 600px;
+}
+
+.sign-in-top h1 {
+	font-weight: normal;
+}
+
+.sign-in-top > span  {
+	display: block;
+	margin-bottom: 1px;
+	font-size: 14px;
+	color: #A1A1AA;
+}
+
+.social-links-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 70px;
+}
+.social-link-item {
+	margin-bottom: 30px;
+	border-radius: 7px;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0, 0.4);
+	box-shadow: none;
+	transition: border-color 0.3s ease,
+				box-shadow 0.3s ease;
+}
+
+.social-link-item:hover {
+	border-color: transparent;
+	box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+.social-link {
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	display: inline-flex;
+	width: 100%;
+	padding: 15px;
+}
+
+.social-link-text {
+	transition: color 0.4s ease;
+}
+
+.social-link-item:hover .social-link-text {
+	color: black;
+}
+
+.social-link-item img {
+	display: block;
+}
+
+.social-link-text {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.sign-in-bottom a {
+	text-decoration: none;
+	transition: color 0.4s ease;
+}
+
+.sign-in-bottom-text {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.sign-in-bottom a:hover {
+	color: black;
+}
+
+.sign-in-bottom {
+	display: flex;
+	align-items: center;
+	padding: 47px 60px;
+	justify-content: space-between;
+}
+
